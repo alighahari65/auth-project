@@ -1,0 +1,33 @@
+.form-container {
+    min-height: 100vh;
+    background: linear-gradient(#de6262, #ffb88c) no-repeat center/ cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 450px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.tab {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+.tab.current {
+    background-color: #f1f1f1;
+}
+
+.error {
+    box-shadow: 0 0 0.5em crimson;
+    border: 1px solid crimson;
+}
+
+#auth-error {
+    font-size: 14px;
+    color: crimson;
+}
